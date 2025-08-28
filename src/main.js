@@ -1,6 +1,6 @@
 // import GSAP ScrollTrigger and SplitText
 import { gsap } from "gsap";
-import sliders from "../constants/index.js";
+import sliders from "../public/Constants/slidesData.js";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import Lenis from "lenis";
