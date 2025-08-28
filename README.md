@@ -5,6 +5,8 @@ JavaScript**.\
 It features **smooth scrolling animations, touch/mouse interactions, and
 text reveal effects** powered by **GSAP** and **Lenis**.
 
+(Inspired from https://www.karim-saab.com/work)
+
 ## 🖼️ Preview
 
 <img width="1920" height="892" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/99486b74-98d1-4f5b-a4e7-cd7762804edb" />
