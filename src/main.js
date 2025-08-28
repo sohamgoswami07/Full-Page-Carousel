@@ -1,6 +1,6 @@
 // import GSAP ScrollTrigger and SplitText
 import { gsap } from "gsap";
-import sliders from "../public/Constants/slidesData.js";
+import slides from "../public/Constants/slidesData.js";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import Lenis from "lenis";
@@ -17,7 +17,7 @@ gsap.ticker.add((time) => {
 gsap.ticker.lagSmoothing(0);
 
 document.addEventListener("DOMContentLoaded", () => {
-  const totalSlides = sliders.length;
+  const totalSlides = slides.length;
   let currentSlide = 1;
 
   let isAnimating = false;
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Create slide element
   function createSlide(slideIndex) {
-    const slideData = sliders[slideIndex - 1];
+    const slideData = slides[slideIndex - 1];
 
     const slide = document.createElement("div");
     slide.className = "slide";
