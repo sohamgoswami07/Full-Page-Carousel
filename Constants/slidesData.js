@@ -1,4 +1,4 @@
-const sliders = [
+const slides = [
     {
         title: "着物",
         description: "着物は、日本の伝統的な衣服で、長い袖と帯が特徴です。季節や場面に応じた柄や素材が選ばれ、格式ある場やお祝い事などで着用されます。結婚式、成人式、茶道などでよく見られ、美しい装いとして世界中でも高く評価されています。",
@@ -41,4 +41,4 @@ const sliders = [
     },
 ]
 
-export default sliders;
+export default slides;
